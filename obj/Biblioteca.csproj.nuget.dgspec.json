@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca - netcore3.1\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca - netcore3.1\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca - netcore3.1\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca - netcore3.1\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca - netcore3.1\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\Camila\\Desktop\\SENAC\\FULL STACK\\002 FRONT - UC07\\UC07AT01\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Camila\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,8 +37,6 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.0, )"
             },
