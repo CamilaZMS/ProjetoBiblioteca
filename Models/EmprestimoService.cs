@@ -25,6 +25,7 @@ namespace Biblioteca.Models
                 emprestimo.LivroId = e.LivroId;
                 emprestimo.DataEmprestimo = e.DataEmprestimo;
                 emprestimo.DataDevolucao = e.DataDevolucao;
+                emprestimo.Devolvido = e.Devolvido;
 
                 bc.SaveChanges();
             }
@@ -60,8 +61,10 @@ namespace Biblioteca.Models
                     query = bc.Emprestimos;                
                 }
 
-                List<Emprestimo> ListaConsulta = query.OrderBy(e => e.DataEmprestimo).ToList();
-                for (int i   = 0; i < ListaConsulta.Count; i++) {
+                List<Emprestimo> ListaConsulta = query.OrderByDescending(e => e.DataDevolucao).ToList();
+                
+                for (int i = 0; i < ListaConsulta.Count; i++)
+                {
                     ListaConsulta[i].Livro = bc.Livros.Find(ListaConsulta[i].LivroId);
                 }
 

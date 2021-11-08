@@ -42,12 +42,14 @@ namespace Biblioteca.Controllers
         {
             Autenticacao.CheckLogin(this);
             FiltrosEmprestimos objFiltro = null;
+
             if(!string.IsNullOrEmpty(filtro))
             {
                 objFiltro = new FiltrosEmprestimos();
                 objFiltro.Filtro = filtro;
                 objFiltro.TipoFiltro = tipoFiltro;
             }
+            
             EmprestimoService emprestimoService = new EmprestimoService();
             return View(emprestimoService.ListarTodos(objFiltro));
         }
